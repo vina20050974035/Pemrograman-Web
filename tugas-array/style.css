@@ -1,0 +1,23 @@
+header{
+  text-align: center;
+  background-color: #f7a949;
+  height: 100px; 
+}
+body {
+    width: 70%; 
+    margin: auto;
+}
+main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/bgabu.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+}
+#contents {
+    float: center;
+}
+
+footer {
+  text-align: center;
+}

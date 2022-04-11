@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <title>Website Hitung Diskon</title>
+    </head>
+    <body>
+    <main>
+            <header>
+                <h1>Perhitungan Diskon</h1>
+            </header>
+            <form name="hitungdiskon">
+              <center>Masukkan harga barang (Rp.)<br>
+                <input type="text" name="harga" ></input><br><br>
+                <p>Besar diskon(1-100)
+                <input type="text" name="diskon"  size="3"></input> %</p>
+                <br><input type="button" onclick="hitung()" value="Proses"></input>
+                <input type="reset" type="reset"></input>
+                <p><br>Harga diskon(Rp.)<br>
+                <input type="text" name="hrgdiskon"></input></p>
+                <br>Hasil diskon (Rp.)<br>
+                <input type="text" name="hasildiskon"></input>
+              </center>
+            </form>  
+            
+            <script src="scriptdiskon.js"></script>
+    </main>
+    </body>
+</html>
